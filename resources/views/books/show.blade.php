@@ -3,9 +3,12 @@
 @section('title', 'Books')
 
 @section('content')
-<main>
-    <h1>{{ $book->title }}</h1>
-<p>{{$book->plot}}</p>
+<main class="container">
+    <h1 class="text-center">{{ $book->title }}</h1>
+    <div class="d-flex justify-content-center ">
+        <img src="{{$book->cover_image}}" alt="{{ $book->title }}" >
+    </div>
+    <p>{{$book->plot}}</p>
 
 </main>
 

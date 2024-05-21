@@ -9,6 +9,16 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
+body{
+    background-color: $background;
+}
 h1 {
     color: $text-color;
+}
+p, a{
+    color: white;
+}
+
+img{
+     aspect-ratio: 2/3;
 }
